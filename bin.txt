@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Playfair+Display+SC:ital@1&family=Righteous&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&display=swap" rel="stylesheet"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/gym.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/special-styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="everything">
+
+        <div class="fixed-nav">
+            <div class="side-nav">
+
+                <div class="menu-icon" id="menu-icon">&#9776;</div>
+                <div class="media-nav">
+                    <ul>
+                        <li><a href="#" style="--i:1">Home</a></li>
+                        <li><a href="#" style="--i:2">About Us</a></li>
+                        <li><a href="#" style="--i:3">Shop</a></li>
+                        <li><a href="#" style="--i:4">Pages</a></li>
+                        <li><a href="#" style="--i:5">Collections</a></li>
+                        <li><a href="#" style="--i:6">Contact Us</a></li>
+                        <li>
+                            <div class="nav-icons">
+                                <label>&plus;</label><input type="text" placeholder="Book a session">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="names">
+                    <h1><span class="red">G</span>ym</h1>
+                    <img src="pics/logo-removebg-preview.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" style="--i:1">Home</a></li>
+                        <li><a href="#" style="--i:2">About Us</a></li>
+                        <li><a href="#" style="--i:3">Shop</a></li>
+                        <li><a href="#" style="--i:4">Pages</a></li>
+                        <li><a href="#" style="--i:5">Collections</a></li>
+                        <li><a href="#" style="--i:6">Contact Us</a></li>
+                        <li>
+                            <di class="nav-icons">
+                                <button>&plus;</button><input type="text" name="book" placeholder="Book a session">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+            
+            <div class="main-section">
+                <img src="pics/bk.jpg" alt="main picture" class="main-pic">
+                <div class="main-info">
+                    <h2 class="info">Welcome to Gymshark</h2>
+                    <p class="info">Time to get fit
+                    </p>
+                    <div class="main-link">
+                        <a href="#services">EXPLORE</a>
+                    </div>
+                </div>
+                <div class="main-info main-info-2">
+                    <p class="info info-2">Let's see what works for you</p>
+                    <p class="info info-2 thoughts-con thoughts">Feel free to go through our website.<br>
+                        At <span class="red">GymShark</span>,
+                        we are dedicated to giving<br>
+                        you the best services posible.
+                    </p>
+                    <div class="tri-con">
+                        <div class="tri"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="explore-container">
+            <div id="explore">
+                <header>TIPS</header>
+                <div class="exp">
+                    <div class="exp1">
+                        <img src="pics/clk-removebg-preview.png" alt="arnold's picture">
+                        <div class="down-exp">
+                            <h1>Progressions</h1>
+                            <p class="words">
+                                Our team of experts will work with you to<br>
+                                create a customized plan that helps<br> 
+                                you achieve success one step at a time.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        
+            <div class="services" id="services">
+                <div class="services-head">
+                    <h2>Our Services</h2>
+                    <div class="sp1"></div>
+                    <div class="sp2"></div>
+                </div>
+              
+                <div class="packages">
+                    <div class="each-pack one">
+                        <div class="each-service">
+                            <h2>Cardiovascular Equiments</h2>
+                            <ul>
+                                <li>Treadmills,</li> 
+                                <li>stationary bikes,</li> 
+                                <li>elliptical machines</li>
+                            </ul>
+                        </div>
+                        <img src="pics\guy-black.jfif" alt="blackguy working out">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="jquery file.js"></script>
+    <script src="gym.js"></script>
+</body>
+</html>
+
+
+

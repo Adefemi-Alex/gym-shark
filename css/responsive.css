@@ -1,0 +1,149 @@
+
+
+@media screen and (360px <= width <= 540px){
+
+    .names > img{
+        width: 60px;
+        height: 60px;
+    }
+    div.side-nav{
+        display: block;
+        /* width: 100%;
+        height: 100%; */
+       
+    }
+    .menu-icon{
+        display: inline-block;
+        
+        
+    }
+    nav > ul{
+        display: grid;
+    }
+    div.nav > nav > ul{
+        display: none;
+    }
+    .main-info > .info {
+        font-size: 1.2rem;
+    }
+    .main-info{
+        font-size: 0.6rem;
+        left: 20%
+    }
+    .main-info  a{
+        margin-left: 4rem;
+    }
+    .main-info-2{
+        top: 100%;
+        left: 5%;
+    }
+    .main-info-2 > .info{
+        /* color: black; */
+        font-size: 1rem;
+    }
+
+
+    .explore-container{
+        margin-top: 16rem;
+    }
+    #tips-id header{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgba(252, 7, 7, 0.863);
+    }  
+    .tips{
+        padding: 0  0 0 2.5rem;
+        grid-template-columns: repeat(1, 100%);
+    }
+    .tip1{
+        margin: 9px;
+        padding: 0 1.5rem 0 1.5rem;
+        box-shadow: 0px 0px 10px 4px black;
+    
+    }
+    .tip1 img{
+        width: 20vw;
+        transform: translateX(150%);
+    }
+
+    .services{
+        margin-top: 6rem; 
+    }
+    .services-head::before,
+    .services-head::after{
+       width: 30vw;
+       height: 30vh;
+       border-radius: 50%;
+       position: absolute;
+       right: 10rem;
+       z-index: -1;
+       box-shadow: 9px 0 5px black;
+   }
+   
+   .services-head::after{
+       left: 10rem;
+       box-shadow: -9px 0 5px black;
+   }
+   
+}
+/*end*/
+/* 
+.navigation{
+    background-color: rgba(0, 0, 0, 0.925);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav{
+    max-width: 100%;
+    width: 99%;
+    margin-left: 9px;
+    padding-top: 1rem;
+    padding-bottom: 1.15rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+}
+.navigation .menu-icon {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+.nav h1{
+    font-family: dancing script;
+}
+/*end*/
+/* 
+.navigation{
+    background-color: rgba(0, 0, 0, 0.925);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav{
+    max-width: 100%;
+    width: 99%;
+    margin-left: 9px;
+    padding-top: 1rem;
+    padding-bottom: 1.15rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+}
+.navigation .menu-icon {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+.nav h1{
+    font-family: dancing script;
+}

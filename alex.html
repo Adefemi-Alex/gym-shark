@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>how are you</h1>
+    <button id="cap">Click</button>
+
+    <script>
+        var head = document.querySelector('h1')
+        var cap = document.querySelector('#cap')
+        cap.addEventListener('click', ()=>{
+            head.innerHTML = head.innerHTML.toUpperCase()
+            // console.log( head.innerText.toUpperCase())
+        })
+    </script>
+   
+   <!-- <div class="con">
+    <h1>lex</h1>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">contact us</a></li>
+        <li><a href="">blog</a></li>
+    </ul>
+   </div>
+
+    <style>
+       .con{
+        display:flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+
+       }
+       ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        
+    }
+    li{
+           margin: 0 0.5rem;
+
+       }
+    </style> -->
+</body>
+</html>
